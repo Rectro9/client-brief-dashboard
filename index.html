@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client brief dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <section class="client-brief-dashboard">
+            <header>
+                <h1>Client Brief Dashboard</h1>
+            </header>
+
+            <!--Project Form Section-->
+            <section class="project-form">
+                <h2>New Project</h2>
+                
+                <form>
+                <div class="project-name">
+                    <input type="text" placeholder="Project Title">
+                </div>
+
+                <div class="client-name">
+                    <input type="text" placeholder="Client Name">
+                </div>
+
+                <div class="project-deadline">
+                    <input type="text" placeholder="Deadline">
+                </div>
+
+                <div class="project-budget">
+                    <input type="text" placeholder="Budget">
+                </div>
+
+                <div class="project-description">
+                    <input type="text" placeholder="Description">
+                </div>
+
+                <div class="form-submit-btn">
+                    <button class="submit-btn">Submit</button>
+                </div>
+                </form>
+            </section>
+
+            <!--Filter & Sort Project Section-->
+            <section class="project-filter">
+                <h2>Filter & Sort Project</h2>
+
+                <div class="filter-row">
+                    <select>
+                        <option>Client</option>
+                        <option>Administrator</option>
+                    </select>
+
+                    <select>
+                        <option>Status</option>
+                    </select>
+
+                    <select>
+                        <option>Sort By: Newest First</option>
+                    </select>
+
+                    <input type="text" placeholder="Search...">
+
+                    <button class="filter-btn">Filter</button>
+                </div>
+                
+            </section>
+
+            <!--Project Cards List Section-->
+            <section class="project-cards-list">
+                <h2>Current Projects</h2>
+
+                <div class="cards">
+
+                    <div class="project-cards list">
+                        <h3>Website Redesign</h3>
+                        <p><strong>Client:</strong> ABC LTD</p>
+                        <p><strong>Due:</strong> April 12, 2024</p>
+                        <p><strong>Budget:</strong> $15,000</p>
+
+                        <div class="tags">
+                            <span class="tag in-progress">In Progress</span>
+                            <span class="tag high-priority">High Priority</span>
+                        </div>
+
+                        <p class="description">
+                            Revamping company website with new design.
+                        </p>
+                    </div>
+
+                    <div class="cards">
+                        <div class="project-cards list">
+                            <h3>Social Media Campaign</h3>
+                            <p><strong>Client:</strong>XYZ Inc</p>
+                            <p><strong>Due:</strong> June 10, 2025</p>
+                            <p><strong>Budget:</strong> $8,000</p>
+
+                            <div class="tags">
+                                <span class="tag pending">Pending</span>
+                                <span class="tag medium-priority">Medium Priority</span>
+                            </div>
+
+                            <p class="description">
+                                Developing social media ads for product launch.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div class="project-cards list">
+                            <h3>Product Brochure</h3>
+                            <p><strong>Client:</strong> Global Corp</p>
+                            <p><strong>Due:</strong> September 9, 2025</p>
+                            <p><strong>Budget:</strong> $4,000</p>
+
+                            <div class="tags">
+                                <span class="completed">Completed</span>
+                            </div>
+
+                            <p class="description">
+                                Designing a new brochure for product line.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </section>
+    </main>
+</body>
+</html>
